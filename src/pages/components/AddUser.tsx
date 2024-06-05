@@ -18,7 +18,7 @@ const AddUser: React.FC<AddUser> = ({
   userSelect,
   onRecharge,
   recharge,
-  onUserSelect
+  onUserSelect,
 }) => {
   const { user } = useAuth();
   const isAdmin = user?.type === "ADMIN";
@@ -28,13 +28,23 @@ const AddUser: React.FC<AddUser> = ({
       <div className={styles.containerAddUser}>
         <div className={styles.containertext}>
           <h2>Painel de Usuário</h2>
-          <span>Visualize perfis de usuários e gerencie permissões.</span>
+          <span>
+            {!!isAdmin
+              ? `Visualize perfis de usuários e gerencie permissões.`
+              : `Visualize perfis de usuários.`}
+          </span>
         </div>
         {isAdmin && (
           <button
             onClick={() => {
               onOpenForm(!openForm);
-              onUserSelect({ email:'', id: 0, name: '', password: '' , type: 'USER'})
+              onUserSelect({
+                email: "",
+                id: 0,
+                name: "",
+                password: "",
+                type: "USER",
+              });
             }}
             className={styles.button}
           >

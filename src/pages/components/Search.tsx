@@ -95,7 +95,7 @@ const Search: React.FC<SearchProps> = ({ onSearch }) => {
             className={styles.input}
             type="text"
             {...register("email")}
-            placeholder="Procure os usuarios por nome ou email"
+            placeholder="Procure os usuarios pelo email"
           />
           <button className={styles.button} type="submit">
             <Image src={IconSearch} alt="Icone de Lupa" width={16} />

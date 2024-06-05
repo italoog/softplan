@@ -40,7 +40,7 @@ const Search: React.FC<SearchProps> = ({ onSearch }) => {
 
         onSearch(response.data);
 
-        toast.success("Login realizado com sucesso!", {
+        toast.success("Operação realizada com sucesso!", {
           position: "top-right",
           autoClose: 5000,
           hideProgressBar: false,

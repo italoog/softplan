@@ -7,6 +7,10 @@ import { Bounce, toast } from "react-toastify";
 import { useForm } from "react-hook-form";
 import getValidationError from "@/utils/getValidationErrors";
 import { useRouter } from "next/router";
+import Image from "next/image";
+
+import logo from "@/assets/logo_versao_positiva2.png";
+
 
 
 
@@ -91,7 +95,7 @@ const LoginCard: React.FC = () => {
 
   return (
     <div className={styles.loginCard}>
-      <h2 className={styles.heading}>UserHub</h2>
+      <Image src={logo} alt="Logo Softplan" height={80} priority />
 
       <form onSubmit={handleSubmit(onSubmit)}>
         <label className={styles.text}>Nome de usuário</label>

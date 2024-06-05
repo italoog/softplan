@@ -20,6 +20,13 @@
       "name": "teste ok",
       "type": "USER",
       "id": 3
+    },
+    {
+      "email": "cicrano@mail.com",
+      "password": "$2a$10$GzR2uXAN0RIMW4SI2.PBzOuWfll1x47LhaEG3xUPd4mAxe1Cn3Mim",
+      "name": "Cicrano",
+      "type": "USER",
+      "id": 4
     }
   ]
 }

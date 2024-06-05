@@ -102,6 +102,14 @@ O arquivo `db.json` contém os seguintes usuários padrão:
    - **Tipo**: ADMIN
    - **ID**: 2
 
+## Vídeo de Demonstração
+
+Confira o vídeo abaixo para ver o sistema em funcionamento:
+
+[Demonstração do Sistema](https://www.youtube.com/watch?v=ifu4y1VXB3M)
+
+
+
 ## Decisões Tomadas
 
 1. **Next.js como Framework Principal**: Utilizado para facilitar a construção de aplicações React com renderização do lado do servidor e geração de sites estáticos.

@@ -45,7 +45,7 @@ bem como aos usuários se autenticarem e visualizarem informações do sistema.
 - Node.js e npm ou yarn instalados na máquina.
 
 ### Instalação
-
+```
 1. Clone o repositório:
    ```bash
    git clone https://github.com/seu-usuario/softplan.git

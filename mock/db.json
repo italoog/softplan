@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "email": "italo@softpan.com",
+      "password": "$2a$10$/TpDG8bkZm6wsZf3z2exre7gBJpOfUjKAsGsH/mXvV4lwRtaDlGl.",
+      "name": "Italo Gomes",
+      "type": "USER",
+      "id": 1
+    },
+    {
+      "email": "admin@softpan.com",
+      "password": "$2a$10$DQJf/6bwNtdHah2xSC7z8eLFk9J/634IlZoSlRbVg02kKE/KgDII.",
+      "name": "admin",
+      "type": "ADMIN",
+      "id": 2
+    },
+    {
+      "email": "italo.rock1996@gmail.com",
+      "password": "$2a$10$I3mMCRgOY4sX2bDW.qqluuDAZnJn89i7dbbhgfg0izU.o5WwC5DC.",
+      "name": "teste ok",
+      "type": "USER",
+      "id": 3
+    }
+  ]
+}

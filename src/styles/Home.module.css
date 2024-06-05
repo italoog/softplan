@@ -1,0 +1,20 @@
+.main {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem;
+  min-height: 100vh;
+  position: relative;
+}
+
+.decoration {
+  position: absolute;
+  top: -219px;
+  left: -176px;
+  width: 834px;
+  height: 824px;
+  background-color: #d8d8ff;
+  border-radius: 100000px;
+}

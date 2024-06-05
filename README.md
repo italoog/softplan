@@ -1,7 +1,10 @@
 ```markdown
 # Softplan - Sistema de Gerenciamento de Usuários
 
-Este projeto é um sistema de gerenciamento de usuários desenvolvido com Next.js, React, TypeScript e várias outras bibliotecas. Ele permite aos administradores adicionar, editar, pesquisar e deletar usuários, bem como aos usuários se autenticarem e visualizarem informações do sistema.
+Este projeto é um sistema de gerenciamento de usuários desenvolvido com Next.js,
+React, TypeScript e várias outras bibliotecas.
+Ele permite aos administradores adicionar, editar, pesquisar e deletar usuários,
+bem como aos usuários se autenticarem e visualizarem informações do sistema.
 
 ## Estrutura do Projeto
 
